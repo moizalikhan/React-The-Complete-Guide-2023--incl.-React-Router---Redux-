@@ -1372,3 +1372,9 @@ elements = driver.find_elements(By.XPATH, "//div[@class='product']//span[contain
 ```
 
 While XPath is powerful, it's often recommended to use CSS selectors when possible due to their generally better performance and readability. However, XPath remains a valuable tool, especially for complex document structures or when CSS selectors are insufficient.
+
+Hooks:
+component should be like a pure function - > same output for same input
+sideeffect -> that changes a function not being a pure function
+in react the component should be stateless for that we assign that to an another function-> hook, stateful and have side effects
+usestate-> const [state,setstate] = usestate()
